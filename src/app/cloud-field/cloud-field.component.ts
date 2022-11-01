@@ -13,7 +13,9 @@ export class CloudFieldComponent implements OnInit {
     id: 'no',
     label: '',
     type: 'text',
+   
   };
+  public ram:any
   constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {
